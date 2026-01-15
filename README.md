@@ -10,7 +10,8 @@
 - **政策模拟**：基于识别结果，生成可执行的政策干预组合与风险评估（如价格约束、产能调控、研发补贴、行业协同等）。
 - **结构化输出**：支持 JSON 化结果，便于后续报表系统集成。
 ---
-
+## 技术路线图
+![技术路线图](documents/技术路线图.png)
 ## 项目结构
 ```
   Industry Involution Agent
@@ -50,5 +51,9 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+### 3) API密钥申请
+本项目Agent目前仅支持[阿里通义千问模型](https://bailian.console.aliyun.com/cn-beijing/#/home)：qwen-plus，qwen-max，qwen-turbo
+需提前申请个人API密钥，[密钥申请教程](documents/阿里云通义千问API申请.pdf)。
+
 
 
